@@ -1,7 +1,7 @@
 let users = [
     {id : 1, name : 'Alice'},
     {id : 2, name : 'Bek'},
-    {id : 3, name : 'Chris'}
+    {id : 3, name : 'Chris'},
 ]
 
 const index =  (req, res) => {
