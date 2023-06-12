@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a new ComicBook</title>
+</head>
+<body>
+  <h1>Create a new ComicBook</h1>
+
+  <hr/>
+  <form method="post">
+    <fieldset>
+      <legend>
+        Create Data
+      </legend>
+      <table>
+        <didv>
+          <tr>
+            <td><label>genre</label></td>
+            <td><input type="text" name="genre" value="<%=data.genre%>"/></td>
+          </tr>
+        </didv>
+        <didv>
+          <tr>
+            <td><label>name</label></td>
+            <td><input type="text" name="name" value="<%=data.name%>"/></td>
+          </tr>
+        </didv>
+        <didv>
+          <tr>
+            <td><label>writer</label></td>
+            <td><input type="text" name="writer" value="<%=data.writer%>"/></td>
+          </tr>
+        </didv>
+        <didv>
+          <tr>
+            <td><label>releasedate</label></td>
+            <td><input type="datetime-local" name="releasedate"/></td>
+          </tr>
+        </didv>
+      </table>
+    </fieldset>
+    <input type="submit"/>
+  </form>
+</body>
+</html>
